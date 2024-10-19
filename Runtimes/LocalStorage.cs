@@ -37,6 +37,9 @@ namespace UStorage
             }
         }
 
+        public bool ContainsItem(T item) =>
+            items.Contains(item);
+
         // Method to retrieve all items
         public List<T> GetAllItems()
         {
